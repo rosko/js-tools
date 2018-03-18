@@ -7,13 +7,13 @@
     "build": "nwb build-react-app",
     "clean": "nwb clean-app",
     "start": "nwb serve-react-app",
-    "test": "eslint src/**/*.js && nwb test-react",
+    "test": "npm run lint && nwb test-react",
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
-    "prettier":
-      "prettier --write '*.{js,prettierrc,json}' '{src,tests}/**/*.js'",
+    "prettier": "prettier --write '*.{js,prettierrc,json}' '{src,tests}/**/*.js'",
     "precommit": "npm run prettier && npm test",
-    "prepush": "npm test"
+    "prepush": "npm test",
+    "lint": "eslint src/**/*.js && stylelint src/**/*.scss"
   },
   "dependencies": {
     "react": "16.2.0",
@@ -25,7 +25,9 @@
     "husky": "0.14.3",
     "nwb": "0.21.x",
     "nwb-sass": "0.8.3",
-    "prettier": "1.11.1"
+    "prettier": "1.11.1",
+    "stylelint": "9.1.3",
+    "stylelint-scss": "2.5.0"
   },
   "author": "",
   "license": "MIT",

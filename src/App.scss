@@ -1,4 +1,4 @@
-$color: #00d8ff;
+$fooColor: #00d8ff;
 
 .App {
   height: 100%;
@@ -25,7 +25,7 @@ $color: #00d8ff;
 }
 
 .App-react {
-  color: $color;
+  color: $fooColor;
   text-decoration: overline underline;
 }
 
@@ -44,7 +44,7 @@ $color: #00d8ff;
 
 .App-instructions code {
   background-color: #222;
-  color: $color;
+  color: $fooColor;
   padding: 0.2em 0.3em;
   border-radius: 0.2em;
 }
