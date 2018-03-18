@@ -11,7 +11,7 @@
     "test:coverage": "nwb test-react --coverage",
     "test:watch": "nwb test-react --server",
     "prettier": "prettier --write '*.{js,prettierrc}' '{src,tests}/**/*.js'",
-    "precommit": "npm test",
+    "precommit": "npm run prettier && npm test",
     "prepush": "npm test"
   },
   "dependencies": {
