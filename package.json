@@ -14,7 +14,8 @@
       "prettier --write '*.{js,prettierrc,json}' '{src,tests}/**/*.js'",
     "precommit": "lint-staged && npm test",
     "prepush": "npm test",
-    "lint": "eslint src/**/*.js && stylelint src/**/*.scss"
+    "lint": "eslint src/**/*.js && stylelint src/**/*.scss",
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "lint-staged": {
     "*.{js}": ["prettier --write", "eslint", "git add"],
@@ -26,6 +27,8 @@
     "react-dom": "16.2.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "6.1.3",
+    "@commitlint/config-conventional": "6.1.3",
     "eslint": "4.19.0",
     "eslint-plugin-react": "7.7.0",
     "husky": "0.14.3",
