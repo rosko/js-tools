@@ -7,9 +7,7 @@ import React, { Component } from 'react';
  */
 class Logo extends Component {
   render() {
-    return (
-      <img className="Logo" src={require('./react.svg')} />
-    );
+    return <img className="Logo" src={require('./react.svg')} />;
   }
 }
 
