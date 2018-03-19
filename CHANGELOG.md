@@ -1,5 +1,5 @@
-<a name="1.0.0"></a>
-# 1.0.0 (2018-03-19)
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/rosko/js-tools/compare/e7f6e2a...v1.1.0) (2018-03-19)
 
 
 ### Features
