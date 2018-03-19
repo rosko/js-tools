@@ -21,7 +21,12 @@
     "doc": "esdoc",
     "storybook": "start-storybook -p 9001 -c .storybook",
     "styleguide": "styleguidist server",
-    "styleguide:build": "styleguidist build"
+    "styleguide:build": "styleguidist build",
+    "make:try": "unleash --patch --dry-run",
+    "make:patch": "unleash -p --no-publish",
+    "make:minor": "unleash -m --no-publish",
+    "make:major": "unleash -M --no-publish",
+    "make:prerelease": "unleash -P --no-publish"
   },
   "lint-staged": {
     "*.{js}": ["prettier --write", "eslint", "git add"],
