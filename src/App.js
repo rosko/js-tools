@@ -1,6 +1,7 @@
 import './App.scss';
 
 import React, { Component } from 'react';
+import Logo from './Logo';
 
 class App extends Component {
   render() {
@@ -12,7 +13,7 @@ class App extends Component {
           </h2>
         </div>
         <div className="App-instructions App-flex">
-          <img className="App-logo" src={require('./react.svg')} />
+          <Logo />
           <p>
             Edit <code>src/App.js</code> and save to hot reload your changes.
           </p>
