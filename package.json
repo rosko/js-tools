@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "react": "16.10.1",
-    "react-dom": "16.3.0"
+    "react-dom": "16.10.1"
   },
   "devDependencies": {
     "@commitlint/cli": "6.1.3",
