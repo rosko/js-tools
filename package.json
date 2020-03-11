@@ -61,7 +61,7 @@
     "husky": "0.14.3",
     "lint-staged": "7.0.0",
     "nwb": "0.21.x",
-    "nwb-sass": "0.8.4",
+    "nwb-sass": "0.10.0",
     "prettier": "1.11.1",
     "react-styleguidist": "6.2.7",
     "stylelint": "9.1.3",
